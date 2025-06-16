@@ -1,12 +1,19 @@
-# React + Vite
+# ⚛️ React App with Sentry Integration
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a modern React single-page application featuring multiple modular components and integrated with **Sentry** for performance monitoring and error tracking.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ⚛️ Functional components with clean structure
+- 📦 Modular architecture: `Navbar`, `Hero`, `Highlights`, `Models`, `Feactures`, `HowItWorks`
+- 🎯 Integrated with [Sentry](https://sentry.io/) using `@sentry/react` for:
+  - Error boundaries
+  - Performance monitoring (`withProfiler`)
+- 💅 Tailwind CSS-ready structure (based on `bg-black` class)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📁 Project Structure
+
